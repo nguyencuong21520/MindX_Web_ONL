@@ -1,0 +1,16 @@
+
+body{
+    text-align: center;
+    /* background-color: brown; */
+    /* background-image: url("https://picsum.photos/1000/1000"); */
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+}
+.anh{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+h1{
+    color: white;
+    background-color: #4bc0c8;
+}

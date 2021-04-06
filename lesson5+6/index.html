@@ -11,10 +11,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <div class="nav">
+    <div class="nav1">
         <!-- <ul>
             <li><strong>Đây là ul</strong></li>
             <li>Ăn</li>
@@ -50,7 +60,7 @@
     </div>
 
     <!-- phần body các sản phẩm -->
-    <div class="container">
+    <div class="container1">
         <h1>Các sản phẩm hot</h1>
         <div id="pr" class="product-wrapper">
             <div data-aos="flip-left" class="cart">
@@ -58,7 +68,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
 
             </div>
             <!-- con thứ 2 -->
@@ -67,16 +77,16 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
 
             </div>
             <!-- con thứ 3 -->
-            <div data-aos="flip-left" data-aos-duration="5000"  class="cart">
+            <div data-aos="flip-left" data-aos-duration="5000" class="cart">
                 <img src="https://azpet.com.vn/wp-content/uploads/2019/01/cho-poodle.jpg" alt="">
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
             </div>
             <!-- con thứ 4 -->
             <div data-aos="flip-left" data-aos-duration="6000" class="cart">
@@ -84,7 +94,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
             </div>
         </div>
         <div class="product-wrapper">
@@ -93,7 +103,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
 
             </div>
             <!-- con thứ 2 -->
@@ -102,7 +112,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
 
             </div>
             <!-- con thứ 3 -->
@@ -111,7 +121,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
             </div>
             <!-- con thứ 4 -->
             <div class="cart">
@@ -119,7 +129,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
             </div>
         </div>
         <div class="product-wrapper">
@@ -128,7 +138,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
 
             </div>
             <!-- con thứ 2 -->
@@ -137,7 +147,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
 
             </div>
             <!-- con thứ 3 -->
@@ -146,7 +156,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
             </div>
             <!-- con thứ 4 -->
             <div class="cart">
@@ -154,7 +164,7 @@
                 <h2>Chó poodle</h2>
                 <p>Đây là một loại chó aaaaa</p>
                 <p> 5 000 000 đ</p>
-                <button>Mua Ngay</button>
+                <button data-toggle="modal" data-target="#myModal">Mua Ngay</button>
             </div>
         </div>
         <div class="product-wrapper">
@@ -194,9 +204,53 @@
         </div>
         <!-- about us -->
         <div class="about-us">
-            
+
         </div>
+
     </div>
+            <!-- Trigger the modal with a button -->
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <form action="">
+            <div class="form-group">
+                <label for="pwd">Name:</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Message:</label>
+                <input type="text" class="form-control" id="message">
+              </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="email">Phone:</label>
+                <input type="number" class="form-control" id="phone">
+              </div>
+
+
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
     <!-- footer -->
     <div id="ft" class="footer">
         <div class="footer-top">
@@ -204,11 +258,12 @@
                 <h1>Contact</h1>
                 <p>Nguyễn Văn Cường</p>
                 <p>Ha Noi, Viet Nam</p>
-                    <div class="social-media">
-                        <a href="https://www.facebook.com/nguyencuong21520/"><img src="./img/icons8-facebook-64.png" alt=""></a>
-                        <a href="https://github.com/nguyencuong21520"><img src="./img/icons8-github-64.png" alt=""></a>
-                        <a href=""><img src="./img/icons8-discord-64.png" alt=""></a>
-                    </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/nguyencuong21520/"><img src="./img/icons8-facebook-64.png"
+                            alt=""></a>
+                    <a href="https://github.com/nguyencuong21520"><img src="./img/icons8-github-64.png" alt=""></a>
+                    <a href=""><img src="./img/icons8-discord-64.png" alt=""></a>
+                </div>
             </div>
             <div class="mid">
                 <img src="./img/4856826876_19bc116c-9138-4764-9c1c-90ab2aca85f2.png" alt="">
@@ -224,10 +279,12 @@
     </div>
 
 
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 </html>

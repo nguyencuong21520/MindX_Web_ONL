@@ -5,7 +5,7 @@
 
 }
 
-.nav {
+.nav1 {
     background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
     padding: 5px 15px;
     display: flex;
@@ -39,7 +39,7 @@ ul li:hover {
     transition: 0.2s;
 }
 
-.nav img {
+.nav1 img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -98,22 +98,22 @@ a {
     display: flex;
     justify-content:space-around;
 }
-.container{
+.container1{
     width: 85%;
     margin: auto;
 }
-.container h1{
+.container1 h1{
     margin-top: 30px;
     margin-bottom: 40px;
     text-align: center;
 }
-.container .cart{
+.container1 .cart{
     background:#ecf0f1;
     padding: 10px 15px;
     margin-bottom: 20px;
     transition:0.5s
 }
-.container .cart:hover{
+.container1 .cart:hover{
     box-shadow: 10px 10px 25px gray;
     transition: 0.5s;
 }

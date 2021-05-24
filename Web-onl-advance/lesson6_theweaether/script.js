@@ -1,0 +1,22 @@
+let getData = async (cityName) => {
+  let preeData = await fetch(
+    `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=7674da634845e7c2d8c53ab0a48b8e29`
+  );
+  let data = await preeData.json();
+
+//   let icon = data.weather[0].icon;
+//   let name = data.name;
+//   let tempK = data.main.temp;
+//   let tempC = Math.floor(data.main.temp - 273.15);
+//   let des = data.weather[0].description;
+
+  let dom = document.getElementById("t");
+
+  dom.innerHTML = `<img src="./icons/${data.weather[0].icon}.png" alt="">
+<h3>${data.name}</h3>
+<hr>
+<h1>${Math.floor(data.main.temp - 273.15)} *C</h1>
+<p>${data.weather[0].description}</p>`;
+};
+
+getData("saigon");

@@ -19,4 +19,9 @@ let getData = async (cityName) => {
 <p>${data.weather[0].description}</p>`;
 };
 
-getData("saigon");
+let dom = document.getElementById("form_input")
+dom.onsubmit = (e)=>{
+  e.preventDefault();
+  let key = dom.city.value
+  getData(key)
+}

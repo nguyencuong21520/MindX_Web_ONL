@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+}
+.h-100vh{
+    height: 100vh;
+}
+.form_wrapper{
+    padding:30px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: black;
+}
+.form-group{
+    margin: 10px 0px;
+    width: 300px;
+}
+
+.form_wrapper button{
+    margin-top: 25px;
+}

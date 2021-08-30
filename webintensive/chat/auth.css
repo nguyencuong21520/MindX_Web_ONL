@@ -23,3 +23,9 @@ body {
 .form_wrapper button{
     margin-top: 25px;
 }
+
+.error{
+    color: red;
+    font-size:14px;
+    font-style: italic;
+}
